@@ -3,11 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppComponent   // ✅ standalone component yahan import hota hai
   ],
   providers: [],
   bootstrap: [AppComponent]
